@@ -77,7 +77,7 @@ class KeyboardViewController: UIInputViewController {
             }
         } else {
             whiteSpaceKeyboardView.previewButton.setTitle(
-                NSLocalizedString("Enable Full Access for getting input from pasteboard", comment: ""),
+                NSLocalizedString("Allow Full Access for getting input from pasteboard", comment: ""),
                 for: .normal
             )
             whiteSpaceKeyboardView.previewButton.setTitleColor(.systemGray, for: .normal)
