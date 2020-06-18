@@ -4,11 +4,9 @@
 
 An input method that adds spaces between all characters you've entered.
 
-## Build
+## 预览
 
-下载到本地后，用 Xcode 打开 `WhiteSpace.xcodeproj` 即可。
-
-Clone and open `WhiteSpace.xcodeproj` in Xcode.
+![Preview](./README.assets/preview.gif)
 
 ## License
 
