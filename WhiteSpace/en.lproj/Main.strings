@@ -1,0 +1,72 @@
+
+/* Class = "UILabel"; text = "2"; ObjectID = "1m4-zJ-Gk0"; */
+"1m4-zJ-Gk0.text" = "2";
+
+/* Class = "UILabel"; text = "About"; ObjectID = "1t9-gd-ax3"; */
+"1t9-gd-ax3.text" = "About";
+
+/* Class = "UIViewController"; title = "AboutViewController"; ObjectID = "2f8-2D-h6p"; */
+"2f8-2D-h6p.title" = "AboutViewController";
+
+/* Class = "UILabel"; text = "License"; ObjectID = "7gY-c2-a1m"; */
+"7gY-c2-a1m.text" = "License";
+
+/* Class = "UIBarButtonItem"; title = "Share"; ObjectID = "9SS-O6-QBG"; */
+"9SS-O6-QBG.title" = "Share";
+
+/* Class = "UIBarButtonItem"; title = "Forward"; ObjectID = "A8d-LV-u1v"; */
+"A8d-LV-u1v.title" = "Forward";
+
+/* Class = "UILabel"; text = "Clear Pasteboard"; ObjectID = "BYY-qB-uRl"; */
+"BYY-qB-uRl.text" = "Clear Pasteboard";
+
+/* Class = "UILabel"; text = "U+0020"; ObjectID = "IPf-io-50I"; */
+"IPf-io-50I.text" = "U+0020";
+
+/* Class = "UITextView"; text = "MIT License\n\nCopyright (c) 2020 Tongjie Wang\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE."; ObjectID = "K03-oC-mH0"; */
+"K03-oC-mH0.text" = "MIT License\n\nCopyright (c) 2020 Tongjie Wang\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.";
+
+/* Class = "UILabel"; text = "Normal Whitespace"; ObjectID = "LVX-Xr-9ww"; */
+"LVX-Xr-9ww.text" = "Normal Whitespace";
+
+/* Class = "UINavigationItem"; title = "License"; ObjectID = "Pzv-TU-ZMl"; */
+"Pzv-TU-ZMl.title" = "License";
+
+/* Class = "UINavigationItem"; title = "WhiteSpace"; ObjectID = "TIF-S0-QU0"; */
+"TIF-S0-QU0.title" = "WhiteSpace";
+
+/* Class = "UINavigationItem"; title = "About"; ObjectID = "VJa-Qu-K3w"; */
+"VJa-Qu-K3w.title" = "About";
+
+/* Class = "UILabel"; text = "Full-width Whitespace"; ObjectID = "XY1-Ii-cta"; */
+"XY1-Ii-cta.text" = "Full-width Whitespace";
+
+/* Class = "UITableViewSection"; headerTitle = "Whitespace Character"; ObjectID = "Xy7-Q3-26F"; */
+"Xy7-Q3-26F.headerTitle" = "Whitespace Character";
+
+/* Class = "UITableViewSection"; headerTitle = "Whitespace Count"; ObjectID = "ame-7o-rEa"; */
+"ame-7o-rEa.headerTitle" = "Whitespace Count";
+
+/* Class = "UILabel"; text = "1"; ObjectID = "bCw-Ig-u7n"; */
+"bCw-Ig-u7n.text" = "1";
+
+/* Class = "UILabel"; text = "3"; ObjectID = "erV-Iw-4Pr"; */
+"erV-Iw-4Pr.text" = "3";
+
+/* Class = "UIBarButtonItem"; title = "Backward"; ObjectID = "gx9-sv-OzE"; */
+"gx9-sv-OzE.title" = "Backward";
+
+/* Class = "UIBarButtonItem"; title = "Open in Safari"; ObjectID = "hhx-59-9Zw"; */
+"hhx-59-9Zw.title" = "Open in Safari";
+
+/* Class = "UITableViewSection"; headerTitle = "About"; ObjectID = "iSe-6S-Xum"; */
+"iSe-6S-Xum.headerTitle" = "About";
+
+/* Class = "UILabel"; text = "U+3000"; ObjectID = "lxd-hH-aW6"; */
+"lxd-hH-aW6.text" = "U+3000";
+
+/* Class = "UILabel"; text = "4"; ObjectID = "na1-Yk-sIx"; */
+"na1-Yk-sIx.text" = "4";
+
+/* Class = "UIViewController"; title = "LicenseViewController"; ObjectID = "uBZ-6H-gdf"; */
+"uBZ-6H-gdf.title" = "LicenseViewController";

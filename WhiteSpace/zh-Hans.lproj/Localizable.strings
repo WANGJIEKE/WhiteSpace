@@ -1,0 +1,9 @@
+/* 
+  Localizable.strings
+  WhiteSpace
+*/
+
+"Clear Pasteboard" = "清空剪贴板";
+"Do you want to clear all pasteboard content?" = "确定要清空剪贴板吗？";
+"OK" = "确认";
+"Cancel" = "取消";
