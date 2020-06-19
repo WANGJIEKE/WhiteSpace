@@ -44,20 +44,17 @@ class KeyboardViewController: UIInputViewController {
         
         updatePasteBoardTextFromPasteBoard()
         whiteSpaceKeyboardView.setNextKeyboardButtonVisible(needsInputModeSwitchKey)
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
         
         /// 不知道为什么不能用 `NotificationCenter.default.addObserver`
         /// 只能用这种感觉不是很优雅的方法获取剪贴板的内容
-        pasteBoardTimer = Timer.scheduledTimer(withTimeInterval: 0.1, repeats: true) { _ in
+        pasteBoardTimer = Timer.scheduledTimer(withTimeInterval: 0.5, repeats: true) { _ in
             self.updatePasteBoardTextFromPasteBoard()
         }
-        
-        /// 無駄無駄無駄無駄無駄（迫真
-        // NotificationCenter.default.addObserver(
-        //     self,
-        //     selector: #selector(onPasteBoardChanged(notification:)),
-        //     name: UIPasteboard.changedNotification,
-        //     object: nil
-        // )
+        pasteBoardTimer.tolerance = 0.05
     }
     
     // MARK: - Response KeyboardView Events
@@ -118,11 +115,6 @@ class KeyboardViewController: UIInputViewController {
     
     override func viewWillDisappear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        pasteBoardTimer?.invalidate()
-        pasteBoardTimer = nil
-    }
-    
-    deinit {
         pasteBoardTimer?.invalidate()
         pasteBoardTimer = nil
     }
