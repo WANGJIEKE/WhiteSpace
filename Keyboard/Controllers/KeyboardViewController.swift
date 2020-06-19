@@ -59,10 +59,6 @@ class KeyboardViewController: UIInputViewController {
     
     // MARK: - Response KeyboardView Events
     
-    // @objc func onPasteBoardChanged(notification: NSNotification) {
-    //     updatePasteBoardTextFromPasteBoard()
-    // }
-    
     func updatePasteBoardTextFromPasteBoard() {
         if hasFullAccess {
             whiteSpaceKeyboardView.previewButton.isEnabled = true
