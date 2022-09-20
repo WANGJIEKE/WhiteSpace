@@ -1,9 +1,44 @@
-/* 
-  Localizable.strings
-  WhiteSpace
-*/
+/* No comment provided by engineer. */
+"Add a new rule" = "添加新规则";
 
-"Clear Pasteboard" = "清空剪贴板";
-"Do you want to clear all pasteboard content?" = "确定要清空剪贴板吗？";
-"OK" = "确认";
-"Cancel" = "取消";
+/* No comment provided by engineer. */
+"Content" = "内容";
+
+/* No comment provided by engineer. */
+"Custom Rules" = "自定义规则";
+
+/* No comment provided by engineer. */
+"Edit" = "编辑规则";
+
+/* No comment provided by engineer. */
+"Error" = "错误";
+
+/* No comment provided by engineer. */
+"JavaScriptCore encountered an error" = "JavaScriptCore遇到了一个问题";
+
+/* No comment provided by engineer. */
+"Name" = "名称";
+
+/* No comment provided by engineer. */
+"OK" = "好";
+
+/* No comment provided by engineer. */
+"Presets" = "预设规则";
+
+/* No comment provided by engineer. */
+"Preview" = "预览";
+
+/* No comment provided by engineer. */
+"Rule name" = "规则名称";
+
+/* No comment provided by engineer. */
+"Rule Name" = "规则名称";
+
+/* No comment provided by engineer. */
+"View" = "查看规则";
+
+/* No comment provided by engineer. */
+"WhiteSpace" = "空格";
+
+/* No comment provided by engineer. */
+"Your rule didn't return a string or encountered an exception" = "你的规则没有返回字符串或遇到了异常";

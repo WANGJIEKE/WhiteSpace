@@ -1,7 +1,2 @@
-/*
-  InfoPlist.strings
-  Keyboard
-*/
-
-
-CFBundleDisplayName = "输入法";
+/* Bundle display name */
+"CFBundleDisplayName" = "键盘";

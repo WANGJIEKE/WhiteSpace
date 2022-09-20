@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "1200"
+   LastUpgradeVersion = "1400"
    wasCreatedForAppExtension = "YES"
    version = "2.0">
    <BuildAction
@@ -15,7 +15,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "674282C9249093CA00B5BF06"
+               BlueprintIdentifier = "D4EDF6E328D828BA00B66245"
                BuildableName = "Keyboard.appex"
                BlueprintName = "Keyboard"
                ReferencedContainer = "container:WhiteSpace.xcodeproj">
@@ -29,7 +29,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6742829F24903DF500B5BF06"
+               BlueprintIdentifier = "D487C3D328D32F6A00615A75"
                BuildableName = "WhiteSpace.app"
                BlueprintName = "WhiteSpace"
                ReferencedContainer = "container:WhiteSpace.xcodeproj">
@@ -59,13 +59,13 @@
       launchAutomaticallySubstyle = "2">
       <RemoteRunnable
          runnableDebuggingMode = "1"
-         BundleIdentifier = "com.apple.mobilesafari"
-         RemotePath = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/Applications/MobileSafari.app">
+         BundleIdentifier = "tongjiew.whitespace"
+         RemotePath = "/Users/tongjiew/Library/Developer/CoreSimulator/Devices/6A55674E-872D-49AC-B16A-92CF0F8F5FFF/data/Containers/Bundle/Application/66E2B3AC-CA76-4D5E-A0C4-086E1105B4DF/WhiteSpace.app">
       </RemoteRunnable>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6742829F24903DF500B5BF06"
+            BlueprintIdentifier = "D487C3D328D32F6A00615A75"
             BuildableName = "WhiteSpace.app"
             BlueprintName = "WhiteSpace"
             ReferencedContainer = "container:WhiteSpace.xcodeproj">
@@ -78,12 +78,13 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES"
+      askForAppToLaunch = "Yes"
       launchAutomaticallySubstyle = "2">
       <BuildableProductRunnable
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6742829F24903DF500B5BF06"
+            BlueprintIdentifier = "D487C3D328D32F6A00615A75"
             BuildableName = "WhiteSpace.app"
             BlueprintName = "WhiteSpace"
             ReferencedContainer = "container:WhiteSpace.xcodeproj">

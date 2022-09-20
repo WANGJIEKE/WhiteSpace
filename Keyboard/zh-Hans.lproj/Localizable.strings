@@ -1,6 +1,9 @@
-/* 
-  Localizable.strings
-  WhiteSpace
-*/
+/* No comment provided by engineer. */
+"JavaScriptCore encountered an error" = "JavaScriptCore遇到了一个问题";
 
-"Allow Full Access for getting input from pasteboard" = "允许完全访问以从剪贴板中读取输入";
+/* No comment provided by engineer. */
+"Please select a rule to preview" = "请选择一个规则以进行预览";
+
+/* No comment provided by engineer. */
+"Your rule didn't return a string or encountered an exception" = "你的规则没有返回字符串或遇到了异常";
+

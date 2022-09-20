@@ -1,9 +1,0 @@
-/* 
-  Localizable.strings
-  WhiteSpace
-*/
-
-"Clear Pasteboard" = "Clear Pasteboard";
-"Do you want to clear all pasteboard content?" = "Do you want to clear the pasteboard?";
-"OK" = "OK";
-"Cancel" = "Cancel";
