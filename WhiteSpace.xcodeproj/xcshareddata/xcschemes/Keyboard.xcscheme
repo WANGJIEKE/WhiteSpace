@@ -43,6 +43,28 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO"
+            parallelizable = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "D4731F092A416910001FE988"
+               BuildableName = "WhiteSpaceTests.xctest"
+               BlueprintName = "WhiteSpaceTests"
+               ReferencedContainer = "container:WhiteSpace.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO"
+            parallelizable = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "D4731F162A4175F8001FE988"
+               BuildableName = "WhiteSpaceUITests.xctest"
+               BlueprintName = "WhiteSpaceUITests"
+               ReferencedContainer = "container:WhiteSpace.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction

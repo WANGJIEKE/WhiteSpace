@@ -8,7 +8,7 @@
 import UIKit
 import SwiftUI
 
-class KeyboardViewController: UIInputViewController, KeyboardViewDelegate {
+class KeyboardViewController: UIInputViewController {
     var inputSwitchButton: UIButton!
     var hostingController: UIHostingController<KeyboardView>!
     
@@ -43,7 +43,9 @@ class KeyboardViewController: UIInputViewController, KeyboardViewDelegate {
             hostingController.view.trailingAnchor.constraint(equalTo: view.trailingAnchor)
         ])
     }
-    
+}
+
+extension KeyboardViewController: KeyboardViewDelegate {
     var button: UIButton? {
         return needsInputModeSwitchKey ? inputSwitchButton : nil
     }

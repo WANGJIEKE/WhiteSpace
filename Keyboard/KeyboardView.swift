@@ -158,7 +158,6 @@ extension KeyboardView {
 
 protocol KeyboardViewDelegate: AnyObject {
     var button: UIButton? { get }
-    var hasFullAccess: Bool { get }
     
     func onRuleOutputTap(output: String)
     func onReturnTap()

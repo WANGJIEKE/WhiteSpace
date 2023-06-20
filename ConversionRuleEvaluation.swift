@@ -8,8 +8,8 @@
 import Foundation
 import JavaScriptCore
 
-enum ConversionRuleEvaluation {
-    static func eval(ruleContent: String, input: String) async -> Result<String, EvalError> {
+public enum ConversionRuleEvaluation {
+    public static func eval(ruleContent: String, input: String) async -> Result<String, EvalError> {
         guard let context = JSContext() else { return .failure(.frameworkError) }
         context.evaluateScript(ruleContent)
         context.setObject(input, forKeyedSubscript: "ruleInput" as NSString)
@@ -17,7 +17,7 @@ enum ConversionRuleEvaluation {
         return ruleExecResult.isString ? .success(ruleExecResult.toString()) : .failure(.wrongReturnType)
     }
     
-    enum EvalError: Error {
+    public enum EvalError: Error {
         case frameworkError, wrongReturnType
     }
 }

@@ -34,6 +34,7 @@ struct AppMainView: View {
                         }
                     }
                 }
+                .accessibilityIdentifier("Presets Section")
             }
             .toolbar {
                 ToolbarItem(placement: .navigationBarTrailing) {
@@ -49,7 +50,7 @@ struct AppMainView: View {
             }
             .navigationTitle("WhiteSpace")
             .navigationDestination(for: ConversionRule.self, destination: { rule in
-                if let idx = rules.firstIndex { $0.id == rule.id } {
+                if let idx = rules.firstIndex(where: { $0.id == rule.id }) {
                     RuleDetailView(rule: $rules[idx], isPreset: false, onRuleChange: saveRules)
                 }
             })

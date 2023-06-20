@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D4731F0D2A416910001FE988 /* WhiteSpaceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4731F0C2A416910001FE988 /* WhiteSpaceTests.swift */; };
+		D4731F1A2A4175F8001FE988 /* WhiteSpaceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4731F192A4175F8001FE988 /* WhiteSpaceUITests.swift */; };
 		D47E8B5C28DA5505003C558A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D47E8B5A28DA5505003C558A /* InfoPlist.strings */; };
 		D47E8B5F28DA5505003C558A /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D47E8B5D28DA5505003C558A /* Localizable.strings */; };
 		D47E8B6228DA5505003C558A /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D47E8B6028DA5505003C558A /* Localizable.strings */; };
@@ -28,6 +30,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		D4731F0E2A416910001FE988 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D487C3CC28D32F6A00615A75 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D487C3D328D32F6A00615A75;
+			remoteInfo = WhiteSpace;
+		};
+		D4731F1D2A4175F8001FE988 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D487C3CC28D32F6A00615A75 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D487C3D328D32F6A00615A75;
+			remoteInfo = WhiteSpace;
+		};
 		D4EDF6E928D828BA00B66245 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D487C3CC28D32F6A00615A75 /* Project object */;
@@ -52,6 +68,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		D4731F0A2A416910001FE988 /* WhiteSpaceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhiteSpaceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4731F0C2A416910001FE988 /* WhiteSpaceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhiteSpaceTests.swift; sourceTree = "<group>"; };
+		D4731F172A4175F8001FE988 /* WhiteSpaceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhiteSpaceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4731F192A4175F8001FE988 /* WhiteSpaceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhiteSpaceUITests.swift; sourceTree = "<group>"; };
 		D47E8B5B28DA5505003C558A /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 		D47E8B5E28DA5505003C558A /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		D47E8B6128DA5505003C558A /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
@@ -77,6 +97,20 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		D4731F072A416910001FE988 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4731F142A4175F8001FE988 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D487C3D128D32F6A00615A75 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -94,6 +128,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D4731F0B2A416910001FE988 /* WhiteSpaceTests */ = {
+			isa = PBXGroup;
+			children = (
+				D4731F0C2A416910001FE988 /* WhiteSpaceTests.swift */,
+			);
+			path = WhiteSpaceTests;
+			sourceTree = "<group>";
+		};
+		D4731F182A4175F8001FE988 /* WhiteSpaceUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D4731F192A4175F8001FE988 /* WhiteSpaceUITests.swift */,
+			);
+			path = WhiteSpaceUITests;
+			sourceTree = "<group>";
+		};
 		D487C3CB28D32F6A00615A75 = {
 			isa = PBXGroup;
 			children = (
@@ -105,6 +155,8 @@
 				D47E8B6728DA5726003C558A /* README.md */,
 				D487C3D628D32F6A00615A75 /* WhiteSpace */,
 				D4EDF6E528D828BA00B66245 /* Keyboard */,
+				D4731F0B2A416910001FE988 /* WhiteSpaceTests */,
+				D4731F182A4175F8001FE988 /* WhiteSpaceUITests */,
 				D487C3D528D32F6A00615A75 /* Products */,
 				D4E01F0228D72232007B035A /* Frameworks */,
 			);
@@ -115,6 +167,8 @@
 			children = (
 				D487C3D428D32F6A00615A75 /* WhiteSpace.app */,
 				D4EDF6E428D828BA00B66245 /* Keyboard.appex */,
+				D4731F0A2A416910001FE988 /* WhiteSpaceTests.xctest */,
+				D4731F172A4175F8001FE988 /* WhiteSpaceUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -165,6 +219,42 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		D4731F092A416910001FE988 /* WhiteSpaceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4731F122A416910001FE988 /* Build configuration list for PBXNativeTarget "WhiteSpaceTests" */;
+			buildPhases = (
+				D4731F062A416910001FE988 /* Sources */,
+				D4731F072A416910001FE988 /* Frameworks */,
+				D4731F082A416910001FE988 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4731F0F2A416910001FE988 /* PBXTargetDependency */,
+			);
+			name = WhiteSpaceTests;
+			productName = WhiteSpaceTests;
+			productReference = D4731F0A2A416910001FE988 /* WhiteSpaceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D4731F162A4175F8001FE988 /* WhiteSpaceUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4731F1F2A4175F8001FE988 /* Build configuration list for PBXNativeTarget "WhiteSpaceUITests" */;
+			buildPhases = (
+				D4731F132A4175F8001FE988 /* Sources */,
+				D4731F142A4175F8001FE988 /* Frameworks */,
+				D4731F152A4175F8001FE988 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4731F1E2A4175F8001FE988 /* PBXTargetDependency */,
+			);
+			name = WhiteSpaceUITests;
+			productName = WhiteSpaceUITests;
+			productReference = D4731F172A4175F8001FE988 /* WhiteSpaceUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		D487C3D328D32F6A00615A75 /* WhiteSpace */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D487C3E228D32F6A00615A75 /* Build configuration list for PBXNativeTarget "WhiteSpace" */;
@@ -208,9 +298,17 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1400;
+				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1400;
 				TargetAttributes = {
+					D4731F092A416910001FE988 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = D487C3D328D32F6A00615A75;
+					};
+					D4731F162A4175F8001FE988 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = D487C3D328D32F6A00615A75;
+					};
 					D487C3D328D32F6A00615A75 = {
 						CreatedOnToolsVersion = 14.0;
 					};
@@ -235,11 +333,27 @@
 			targets = (
 				D487C3D328D32F6A00615A75 /* WhiteSpace */,
 				D4EDF6E328D828BA00B66245 /* Keyboard */,
+				D4731F092A416910001FE988 /* WhiteSpaceTests */,
+				D4731F162A4175F8001FE988 /* WhiteSpaceUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		D4731F082A416910001FE988 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4731F152A4175F8001FE988 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D487C3D228D32F6A00615A75 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -263,6 +377,22 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		D4731F062A416910001FE988 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4731F0D2A416910001FE988 /* WhiteSpaceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4731F132A4175F8001FE988 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4731F1A2A4175F8001FE988 /* WhiteSpaceUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D487C3D028D32F6A00615A75 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -291,6 +421,16 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		D4731F0F2A416910001FE988 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D487C3D328D32F6A00615A75 /* WhiteSpace */;
+			targetProxy = D4731F0E2A416910001FE988 /* PBXContainerItemProxy */;
+		};
+		D4731F1E2A4175F8001FE988 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D487C3D328D32F6A00615A75 /* WhiteSpace */;
+			targetProxy = D4731F1D2A4175F8001FE988 /* PBXContainerItemProxy */;
+		};
 		D4EDF6EA28D828BA00B66245 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = D4EDF6E328D828BA00B66245 /* Keyboard */;
@@ -335,6 +475,80 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		D4731F102A416910001FE988 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GG62JAD8S2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tongjiew.WhiteSpaceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WhiteSpace.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WhiteSpace";
+			};
+			name = Debug;
+		};
+		D4731F112A416910001FE988 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GG62JAD8S2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tongjiew.WhiteSpaceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WhiteSpace.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WhiteSpace";
+			};
+			name = Release;
+		};
+		D4731F202A4175F8001FE988 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GG62JAD8S2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tongjiew.WhiteSpaceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WhiteSpace;
+			};
+			name = Debug;
+		};
+		D4731F212A4175F8001FE988 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GG62JAD8S2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tongjiew.WhiteSpaceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WhiteSpace;
+			};
+			name = Release;
+		};
 		D487C3E028D32F6A00615A75 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -574,6 +788,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		D4731F122A416910001FE988 /* Build configuration list for PBXNativeTarget "WhiteSpaceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4731F102A416910001FE988 /* Debug */,
+				D4731F112A416910001FE988 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4731F1F2A4175F8001FE988 /* Build configuration list for PBXNativeTarget "WhiteSpaceUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4731F202A4175F8001FE988 /* Debug */,
+				D4731F212A4175F8001FE988 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		D487C3CF28D32F6A00615A75 /* Build configuration list for PBXProject "WhiteSpace" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
